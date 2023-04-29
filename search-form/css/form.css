@@ -1,0 +1,13 @@
+.search__icon{
+    fill:#fff;
+}
+
+/* .search__field-box:hover{
+    color:#6441a5;
+} */
+
+
+
+.search__field-box:hover .search__icon{
+    fill:#101011;
+}
