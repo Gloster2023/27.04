@@ -1,0 +1,48 @@
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    text-shadow: 5px 5px 5px rgba( 0, 0 , 0, 0.5 );
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    
+    margin-left: 420px;
+    margin-top: 130px;
+}
+
+
+.switch_label{
+    width: 500px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+    
+}
+
+.switch_input{
+    display: none;
+}
+
+.switch_toggle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #342233;
+    display: inline-block;
+    left: 0;
+    top:0;
+    box-shadow: 0 0 15px;
+   
+}
+
+.switch_input:checked + .switch_label{
+    background: #aa1b1b;
+    text-align: right;
+}
