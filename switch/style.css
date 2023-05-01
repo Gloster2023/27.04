@@ -1,0 +1,31 @@
+.switch_label{
+    
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    border: 1px solid lightgray;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.switch_toggle{
+    display: inline-block;
+    left:0;
+    top:0;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background: #cbdfce;
+    border-radius: 50%;
+}
+
+.switch_input{
+    display: none;
+}
+
+.switch_input:checked + .switch_label{
+    background: greenyellow;
+    text-align: right;
+}
+
+
